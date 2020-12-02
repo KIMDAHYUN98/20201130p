@@ -6,7 +6,7 @@ import java.util.TreeSet;
 public class MapExample4 {
 	public static void main(String[] args) {
 		Connection conn = null;
-		TreeSet<Integer> tset = new TreeSet<>();
+		TreeSet<Integer> tset = new TreeSet<>(); 
 		tset.add(50);
 		tset.add(30);
 		tset.add(45);

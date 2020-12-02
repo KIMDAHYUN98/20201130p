@@ -12,7 +12,16 @@ public class ArrayExample2 {
 		System.out.println("Hello".length());
 		System.out.println("abcde".length()); 
 		
-		List<String> list = new ArrayList<>();
+		List<String> olist = new ArrayList();
+		//olist.add(10); // 숫자타입은 담을 수 없음
+		olist.add("Hello");
+		
+		for(Object str : olist) {
+			String s = (String) str;
+			System.out.println(s);
+		} 
+		
+		List<String> list = new ArrayList<>(); // 양쪽의 타입이 항상 같아야 함
 		list.add(new String("Hello"));
 		list.add(new String("World"));
 		list.add("Welcome");
