@@ -4,7 +4,7 @@ import java.util.function.IntBinaryOperator;
 
 public class OperatorExample {
 
-	static int[] scores = { 92, 95, 87, 24 }; // scores : 필드
+	static int[] scores = { 92, 95, 87, 24, 87 }; // scores : 필드
 
 	static int maxOrMin(IntBinaryOperator oper) { // public 이나 private를 선언하지 않는 이상 int는 디폴트
 		int result = 0;
